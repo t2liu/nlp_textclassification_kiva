@@ -27,5 +27,20 @@ Removing stop words, handle missing descriptions, handle imbalanced classes
 
 ### 3. Summarized Data:
 (a) Visualization of the response variable
-(b)
+
+(b) To understand more about the data, a tf-idf vector is calculated for each of the loan descriptions.
+
+
+**TF-IDF**
+
+Calculate a tf-idf vector for each of loan description:
+
+- sublinear_df is set to True to use a logarithmic form for frequency.
+- min_df is the minimum numbers of documents a word must be present in to be kept. 
+- norm is set to l2, to ensure all our feature vectors have a euclidian norm of 1.
+- ngram_range is set to (1, 3) to indicate that we want to consider unigrams, bigrams, and tri-grams.
+- stop_words is set to "english" to remove all common pronouns ("a", "the", ...) to reduce the number of noisy features.
+
+
+Then using the tf-idf vectors, the loan description terms that are the most correlated with each of the sectors will be listed.
 
