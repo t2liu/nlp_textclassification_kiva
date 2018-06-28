@@ -44,3 +44,9 @@ Calculate a tf-idf vector for each of loan description:
 
 Then using the tf-idf vectors, the loan description terms that are the most correlated with each of the sectors will be listed.
 
+### 4. Fit Models:
+- Multi-Class Naive Bayes Classifier
+		(1) TF-IDF Vectorizer as features
+		(2) Count Vectorizer as features
+
+- Attempted: CNN
