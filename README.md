@@ -2,6 +2,15 @@
 
 For this project I am using Multi-Class Text Classification to predict the Kiva Loan Sector using Kiva Loan Descriptions.
 
+
+**NOTE:** Since the dataset is too big to put on my repo, please follow the following link to retrieve the dataset and files needed to run the Jupyter notebook:
+
+Main Dataset:
+[loans.csv](http://s3.kiva.org/snapshots/kiva_ds_csv.zip)
+
+Word Embeddings (if decided to run the CNN part of my notebook)
+[pre-trained wiki news word embeddings (300D)](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki-news-300d-1M.vec.zip)
+
 General outline/architecture structure of my project:
 
 ![project outline](https://github.com/t2liu/nlp_textclassification_kiva/blob/master/architecture_diagram.png)
@@ -48,7 +57,7 @@ Then using the tf-idf vectors, the loan description terms that are the most corr
 - Multi-Class Naive Bayes Classifier
 
 		(1) TF-IDF Vectorizer as features
-		
+
 		(2) Count Vectorizer as features
 
 - Attempted: CNN
