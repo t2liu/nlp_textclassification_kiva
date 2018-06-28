@@ -12,15 +12,15 @@ This dataset is from the Kiva API (https://build.kiva.org). More specifically, t
 
 loans.csv:
 
-`|-- posted_time: the datetime the loan was posted on the Kiva.org website (datetime)
+`|-- posted_time: the datetime the loan was posted on the Kiva.org website (datetime)`
 
-|-- original_description: the description of the loan in the language of the country the
-borrower is from (string)
+`|-- original_description: the description of the loan in the language of the country the
+borrower is from (string)`
 
-|-- translated_description: the description of the loan translated to English if the
-original language is not English (string)
+`|-- translated_description: the description of the loan translated to English if the
+original language is not English (string)`
 
-|-- sector: the specific category of the loan (categorical)`
+`|-- sector: the specific category of the loan (categorical)`
 
 ### 2. Data Preprocessing:
 Removing stop words, handle missing descriptions, handle imbalanced classes
