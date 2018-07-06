@@ -8,7 +8,7 @@ For this project I am using Multi-Class Text Classification to predict the Kiva 
 Main Dataset:
 [loans.csv](http://s3.kiva.org/snapshots/kiva_ds_csv.zip)
 
-Word Embeddings (if decided to run the CNN part of my notebook)
+Word Embeddings (for the CNN model only)
 [pre-trained wiki news word embeddings (300D)](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki-news-300d-1M.vec.zip)
 
 General outline/architecture structure of my project:
